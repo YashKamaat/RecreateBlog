@@ -1,50 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
-
-
 /* 3 */
+
 h2 {
-    font-family: 'Lato', sans-serif;
     letter-spacing: 3.2px;
     font-weight: 700;
     font-size: 48px;
     color: #3d3d3d;
-
+    margin: 20px 0 0;
 }
 
 /* 4 */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Border and bonus1 */
+
 body {
     border: 20px solid #bdc3c7;
-    width: 80px
-    margin: 20px, auto
+    width: 80%;
+    margin: 20px auto;
     border-radius: 25px;
+    padding: 0 20px;
 }
 
-/* HR */
-#one{
-    border-width: 4px solid #bdc3c7;
-    width: 95%;
+/* 5 */
+
+p:nth-of-type(even) {
+    text-align: right;
 }
-#two{
-    border-bottom: 4px solid #bdc3c7
-width: 95%;
+
+p:nth-of-type(3) {
+    text-align: center;
+    border-top: 5px solid #bdc3c7;
+    border-bottom: 5px solid #bdc3c7;
+    padding: 15px 0;
 }
+
+/* Dates */
+
+#date1 {
+    color: #3498db;
+    text-align: right;
+    margin: 0;
+}
+
+#date2 {
+    color: #3498db;
+    text-align: right;
+    margin: 0;
+}
+
+/* border HR */
+
 #three {
-border-bottom: 10px solid #bdc3c7 
-width: 95%;
-
-}
-#four {
-border-bottom: 10px solid #bdc3c7 
-width: 95%;
-
-}
-#five {
-border-bottom: 10px solid #bdc3c7 
-width: 95%;
-
+    border: 5px solid #bdc3c7;
 }
 
 /* Text size */
-p{
+
+p {
     font-size: 20px;
+}
+
+/* Bonus 2 */
+
+h2:hover {
+    text-align: center;
+    letter-spacing: 20px
+    /* VMAX and VMIN can be used to size most things with CSS. VMIN will base the sizing off of the the Smaller of the two (Height and Width of the viewport). VMAX will base the sizing off of the the Larger of the two (Height and Width of the viewport) */
+    /* letter-spacing: 1.7vmax; */
+    /* letter-spacing: 1vw; */
 }
