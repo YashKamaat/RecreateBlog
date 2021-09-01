@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+/* 3 */
+h2 {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3.2px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #3d3d3d;
+
+}
+
+/* 4 */
+body {
+    border: 20px solid #bdc3c7;
+    width: 80px
+    margin: 20px, auto
+    border-radius: 25px;
+}
+
+/* HR */
+#one{
+    border-width: 4px solid #bdc3c7;
+    width: 95%;
+}
+#two{
+    border-bottom: 4px solid #bdc3c7
+width: 95%;
+}
+#three {
+border-bottom: 10px solid #bdc3c7 
+width: 95%;
+
+}
+#four {
+border-bottom: 10px solid #bdc3c7 
+width: 95%;
+
+}
+#five {
+border-bottom: 10px solid #bdc3c7 
+width: 95%;
+
+}
+
+/* Text size */
+p{
+    font-size: 20px;
+}
